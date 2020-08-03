@@ -16,4 +16,4 @@ felipe.figueiredo@inatel.br
 <img src="/figures/python_logo.png" width="100" height="100">
 
 
-![Inatel Logo](/figures/python_logo.png)
+<img src="/figures/inatel_logo.png" width="100" height="100">
