@@ -13,4 +13,7 @@ Felipe Augusto Pereira de Figueiredo
 
 felipe.figueiredo@inatel.br
 
-![](/figures/python_logo.png?v=2&s=50) ![Inatel Logo](/figures/python_logo.png)
+<img src="/figures/python_logo.png" width="100" height="100">
+
+
+![Inatel Logo](/figures/python_logo.png)
