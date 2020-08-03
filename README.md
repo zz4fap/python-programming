@@ -12,3 +12,5 @@ Para acessar o conteúdo da disciplina e os notebooks, por favor, clique no link
 Felipe Augusto Pereira de Figueiredo
 
 felipe.figueiredo@inatel.br
+
+![GitHub Logo](/images/logo.png) ![GitHub Logo](/images/logo.png)
