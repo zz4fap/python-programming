@@ -1,4 +1,4 @@
-# Bem vindo(a) ao curso de programação em Python.
+# Bem vindo(a) ao curso de C126 - Programação em Python.
 
 Para acessar o conteúdo da disciplina e os notebooks, por favor, clique no link abaixo.
 
