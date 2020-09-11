@@ -1,5 +1,5 @@
 def nomeModulo():
-   return "motor"
+   return __name__
    
 caracteristicas_motor = {
    'fabricante' : 'ford',
