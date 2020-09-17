@@ -1,0 +1,3 @@
+[submodule "provas"]
+	path = provas
+	url = https://github.com/zz4fap/provas.git
