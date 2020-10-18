@@ -1,21 +1,34 @@
 name: python-programming
 channels:
-  - defaults
-  - conda-forge
+    - defaults
+    - conda-forge
 dependencies:
-  - python
-  - mysql-connector-python
-  - mysql
-  - mysql-server
-  - ipython-sql
-  - mysqlclient
-  - numpy
-  - pip
-  - pip:
-    - pandas
-    - matplotlib
+    - python
     - mysql-connector-python
     - mysql
     - mysql-server
     - ipython-sql
     - mysqlclient
+    - numpy
+    - pip
+    - pip:
+        - pandas
+        - matplotlib
+        - mysql-connector-python
+        - mysql
+        - mysql-server
+        - ipython-sql
+        - mysqlclient
+services:
+    notebook:
+        user: root
+        environment:
+            - GRANT_SUDO=yes
+        depends_on:
+            - mysql
+    mysql:
+        image: mysql
+        ports:
+            - 3306
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
