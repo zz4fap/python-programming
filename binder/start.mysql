@@ -15,7 +15,7 @@ while ! mysqladmin ping -h 127.0.0.1 --silent; do
     sleep 5
 done
 
-echo "mysqld is up!";
+echo "mysqld is up!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
 
 # creating local user and granting all privileges
 # mysql -u root -e "CREATE USER '${USER}'@'localhost';";
@@ -32,4 +32,4 @@ mysql -h 127.0.0.1 -u root -e "CREATE USER                    'root'@'${HOSTNAME
 mysql -h 127.0.0.1 -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'${HOSTNAME}';" ;
 mysql -h 127.0.0.1 -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';" ;
 
-echo "mysql is ready"!
+echo "mysql is ready!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
