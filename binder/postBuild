@@ -38,7 +38,7 @@ echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.bashrc
 echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.profile
 
 
-sudo apt install mysql-server
+apt install mysql-server
 
 sudo mysql.server start
 
