@@ -4,6 +4,8 @@
 
 sudo mysql.server start
 
+mysql -h localhost -u root -p
+
 mysqld  --user=${USER} --initialize-insecure --skip-grant-tables --skip-networking --skip-mysqlx 
 
 sleep 10
