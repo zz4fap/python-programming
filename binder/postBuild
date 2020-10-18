@@ -37,9 +37,4 @@ mv      mysql-${MYSQL_VERSION}-linux-x86_64-minimal        mysql-${MYSQL_VERSION
 echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.bashrc
 echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.profile
 
-
-apt install mysql-server
-
-mysql.server start
-
 mysql -h localhost -u root -p
