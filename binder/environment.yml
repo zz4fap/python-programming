@@ -16,7 +16,6 @@ dependencies:
         - matplotlib
         - mysql-connector-python
         - mysql
-        - mysql-server
         - ipython-sql
         - mysqlclient
 
