@@ -1,0 +1,108 @@
+#!/bin/bash
+
+###############################################################
+#          jupyter/jupyterlab extensions/kernels              #
+###############################################################
+
+# Beakerx installation 
+# echo "Beakerx install"
+# beakerx install
+# echo "Beakerx extensions install"
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build 
+# jupyter labextension install beakerx-jupyterlab --no-build 
+
+# ipython-sql extension install
+echo "Ipython-sql extension install"
+jupyter serverextension enable jupyterlab_sql --py --sys-prefix
+
+# Table of contents Jupyter Lab Extension
+echo "Table of contents Jupyter Lab extension install"
+jupyter labextension install @jupyterlab/toc --no-build 
+
+# Jupyter/Jupyterlab extension for proxying internal applications
+# echo "Jupyter/Jupyterlab proxy extension install"
+# jupyter serverextension enable --py jupyter_server_proxy
+# jupyter labextension install jupyterlab-server-proxy
+
+
+# Building everything up
+echo "Building everything up (jupyter lab build)"
+jupyter lab build 
+
+###############################################################
+#             moving to a local installation folder           #
+###############################################################
+
+mkdir ~/resources/local
+cd    ~/resources/local
+
+
+###############################################################
+#             mysql/mariadb install                           #
+###############################################################
+
+# export MARIADB_VERSION=10.4.6
+# echo "export MARIADB_VERSION=${MARIADB_VERSION}" >> ~/.bashrc
+# echo "export MARIADB_VERSION=${MARIADB_VERSION}" >> ~/.profile
+
+# export MARIADB_HOME=$(pwd)/mariadb-${MARIADB_VERSION}
+# echo "export MARIADB_HOME=${MARIADB_HOME}"       >> ~/.bashrc
+# echo "export MARIADB_HOME=${MARIADB_HOME}"       >> ~/.profile
+
+# wget http://mirror.ufscar.br/mariadb//mariadb-${MARIADB_VERSION}/bintar-linux-glibc_214-x86_64/mariadb-${MARIADB_VERSION}-linux-glibc_214-x86_64.tar.gz -q  && \
+# tar -xvf mariadb-${MARIADB_VERSION}-linux-glibc_214-x86_64.tar.gz >> /dev/null  && \
+# rm mariadb-${MARIADB_VERSION}-linux-glibc_214-x86_64.tar.gz                     && \
+# mv mariadb-${MARIADB_VERSION}-linux-glibc_214-x86_64 mariadb-${MARIADB_VERSION} 
+
+# # adding bin/ to $path
+# echo "export PATH=\$PATH:\$MARIADB_HOME/bin"     >> ~/.bashrc
+# echo "export PATH=\$PATH:\$MARIADB_HOME/bin"     >> ~/.profile
+
+###############################################################
+#             mysql minimal installation commands             #
+###############################################################
+
+export MYSQL_VERSION=8.0.17
+echo "export MYSQL_VERSION=${MYSQL_VERSION}" >> ~/.bashrc
+echo "export MYSQL_VERSION=${MYSQL_VERSION}" >> ~/.profile
+
+export MYSQL_HOME=$(pwd)/mysql-${MYSQL_VERSION}
+echo "export MYSQL_HOME=${MYSQL_HOME}"       >> ~/.bashrc
+echo "export MYSQL_HOME=${MYSQL_HOME}"       >> ~/.profile
+
+       
+wget https://cdn.mysql.com/archives/mysql-8.0/mysql-${MYSQL_VERSION}-linux-x86_64-minimal.tar.xz -q  && \
+tar -xf mysql-${MYSQL_VERSION}-linux-x86_64-minimal.tar.xz >> /dev/null                              && \
+rm      mysql-${MYSQL_VERSION}-linux-x86_64-minimal.tar.xz                                           && \
+mv      mysql-${MYSQL_VERSION}-linux-x86_64-minimal        mysql-${MYSQL_VERSION} 
+
+# adding bin/ to $path
+echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.bashrc
+echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.profile
+
+
+
+###############################################################
+#             vscode installation commands                    #
+###############################################################
+
+
+export CODE_SERVER_VERSION=3.4.1
+echo "export CODE_SERVER_VERSION=${CODE_SERVER_VERSION}" >> ~/.bashrc
+echo "export CODE_SERVER_VERSION=${CODE_SERVER_VERSION}" >> ~/.profile
+
+export CODE_SERVER_HOME=$(pwd)/code-server-${CODE_SERVER_VERSION}
+echo "export CODE_SERVER_HOME=${CODE_SERVER_HOME}"       >> ~/.bashrc
+echo "export CODE_SERVER_HOME=${CODE_SERVER_HOME}"       >> ~/.profile
+
+
+# Download and install VS Code server
+wget -q -O code-server.tar.gz https://github.com/cdr/code-server/releases/download/$CODE_SERVER_VERSION/code-server-$CODE_SERVER_VERSION-linux-x86_64.tar.gz                            
+tar xzf code-server.tar.gz
+mv code-server-${CODE_SERVER_VERSION}-linux-x86_64 code-server-$CODE_SERVER_VERSION
+rm -rf code-server.tar.gz
+
+# adding bin/ to $path
+echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.bashrc
+echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.profile
+

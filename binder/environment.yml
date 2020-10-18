@@ -1,0 +1,17 @@
+name: python-programming
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - mysql-connector-python
+  - ipython-sql
+  - mysqlclient
+  - numpy
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
+    - mysql-connector-python
+    - ipython-sql
+    - mysqlclient
