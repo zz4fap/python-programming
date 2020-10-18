@@ -40,6 +40,6 @@ echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.profile
 
 apt install mysql-server
 
-sudo mysql.server start
+mysql.server start
 
 mysql -h localhost -u root -p
