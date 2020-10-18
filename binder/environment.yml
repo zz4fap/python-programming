@@ -19,16 +19,4 @@ dependencies:
         - mysql-server
         - ipython-sql
         - mysqlclient
-services:
-    notebook:
-        user: root
-        environment:
-            - GRANT_SUDO=yes
-        depends_on:
-            - mysql
-    mysql:
-        image: mysql
-        ports:
-            - 3306
-        environment:
-            - MYSQL_ROOT_PASSWORD=root
+
