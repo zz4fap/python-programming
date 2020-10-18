@@ -36,5 +36,3 @@ mv      mysql-${MYSQL_VERSION}-linux-x86_64-minimal        mysql-${MYSQL_VERSION
 # adding bin/ to $path
 echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.bashrc
 echo "export PATH=\$PATH:\$MYSQL_HOME/bin"   >> ~/.profile
-
-mysql -h localhost -u root -p
