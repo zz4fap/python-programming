@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install mysql-server
+
 chmod +x ~/binder/start.mysql
 
 # starting mysql in parallel
