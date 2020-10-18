@@ -5,6 +5,8 @@ channels:
 dependencies:
   - python
   - mysql-connector-python
+  - mysql
+  - mysql-server
   - ipython-sql
   - mysqlclient
   - numpy
@@ -13,5 +15,7 @@ dependencies:
     - pandas
     - matplotlib
     - mysql-connector-python
+    - mysql
+    - mysql-server
     - ipython-sql
     - mysqlclient
