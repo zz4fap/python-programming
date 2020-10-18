@@ -105,4 +105,3 @@ rm -rf code-server.tar.gz
 # adding bin/ to $path
 echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.bashrc
 echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.profile
-
