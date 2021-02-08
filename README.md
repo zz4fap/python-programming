@@ -1,4 +1,4 @@
-# C126 - Introdução à Programação em Python.
+# C126 - Introdução à Programação em Python
 
 Repositório contendo o material da disciplina "Introdução à Programação em Python".
 
@@ -34,11 +34,11 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 ### 5. Prova #1
 
-#### Lista de exercícios de revisão
+  #### Lista de exercícios de revisão
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2Fexercicios_de_revisao_para_p1.ipynb)
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2Fexercicios_de_revisao_para_p1.ipynb)
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/exercicios_de_revisao_para_p1.ipynb)
+  [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/exercicios_de_revisao_para_p1.ipynb)
 
 ### 6. Funções 
 
