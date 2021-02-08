@@ -6,7 +6,7 @@ Repositório contendo o material da disciplina "Introdução à Programação em
 
 Aqui vocês encontram os links para os notebooks das aulas.
 
-**OBS.: Você pode executar os notebooks tanto no Binder quanto no Google Colab, porém, o Google Colab é mais rápido e tem maior disponibilidade de servidores.**
+**OBS.: Vocês podem executar os notebooks tanto no Binder quanto no Google Colab, porém, o Google Colab é mais rápido e tem maior disponibilidade de servidores.**
 
 ### 1. Programação em Python 
 
@@ -34,11 +34,11 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 ### 5. Prova #1
 
-  #### Lista de exercícios de revisão
+#### 5.1. Lista de exercícios de revisão
 
-  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2Fexercicios_de_revisao_para_p1.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2Fexercicios_de_revisao_para_p1.ipynb)
 
-  [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/exercicios_de_revisao_para_p1.ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/exercicios_de_revisao_para_p1.ipynb)
 
 ### 6. Funções 
 
@@ -66,7 +66,7 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 ### 10. Prova #2
 
-#### Lista de exercícios de revisão
+#### 10.1. Lista de exercícios de revisão
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2Fexercicios_de_revisao_para_p2.ipynb)
 
