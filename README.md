@@ -1,6 +1,9 @@
-# Bem-vindo(a) ao curso de C126 - Programação em Python.
+# C126 - Introdução à Programação em Python.
 
-Para acessar o conteúdo da disciplina, por favor, clique em um dos links abaixo.
+Repositório contendo o material da disciplina "Introdução à Programação em Python".
+
+## Conteúdo programático
+
 
 **OBS.: Você pode executar os notebooks tanto no Binder quanto no Google Colab, porém, o Google Colab é mais rápido e tem maior disponibilidade de servidores.**
 
