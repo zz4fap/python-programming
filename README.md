@@ -26,11 +26,11 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/short/Tema03_Controle_de_fluxo_lacos_de_repeticao_operadores_logicos_e_de_comparacao.ipynb)
 
-### 4. Coleções de dados 
+### 4. Funções 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2Fshort%2FTema04_Colecoes_de_dados.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2Fshort%2FTema04_Funcoes.ipynb)
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/short/Tema04_Colecoes_de_dados.ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/short/Tema04_Funcoes.ipynb)
 
 ### 5. Prova #1
 
@@ -40,11 +40,11 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/exercicios_de_revisao_para_p1.ipynb)
 
-### 6. Funções 
+### 6. Coleções de dados 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2Fshort%2FTema05_Funcoes.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2Fshort%2FTema05_Colecoes_de_dados.ipynb)
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/short/Tema05_Funcoes.ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/short/Tema05_Colecoes_de_dados.ipynb)
 
 ### 7. Fundamentos de Orientação a Objetos 
 
