@@ -36,7 +36,7 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 #### 5.1. Lista de exercícios de revisão
 
-** TURMA L2 **
+##### TURMA L2
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2Fexercicios_de_revisao_para_p1_turma_l2.ipynb)
 
