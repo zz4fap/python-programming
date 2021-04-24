@@ -64,9 +64,9 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 ### 9. Análise de dados com Python 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2Fshort%2FTema8_Analise_de_dados_com_Python.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2Fshort%2FTema08_Analise_de_dados_com_Python.ipynb)
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/short/Tema8_Analise_de_dados_com_Python.ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/short/Tema08_Analise_de_dados_com_Python.ipynb)
 
 ### 10. Prova #2
 
