@@ -36,7 +36,7 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2FProva-1-C126-L1-(2S2021).ipynb)
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/Prova-1-C126-L1-(1S2021).ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/Prova-1-C126-L1-(2S2021).ipynb)
 
 #### 5.1. Lista de exercícios de revisão
 
