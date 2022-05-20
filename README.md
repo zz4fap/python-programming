@@ -56,17 +56,17 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/Tema06_Fundamentos_de_Orientacao_a_Objetos.ipynb)
 
-### 8. Trabalhando com Arquivos 
+### 8. Análise de dados com Python 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2FTema07_Trabalhando_com_Arquivos.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2FTema07_Analise_de_dados_com_Python.ipynb)
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/Tema07_Trabalhando_com_Arquivos.ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/Tema07_Analise_de_dados_com_Python.ipynb)
 
-### 9. Análise de dados com Python 
+### 9. Trabalhando com Arquivos 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2FTema08_Analise_de_dados_com_Python.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=notebooks%2FTema08_Trabalhando_com_Arquivos.ipynb)
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/Tema08_Analise_de_dados_com_Python.ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/notebooks/Tema08_Trabalhando_com_Arquivos.ipynb)
 
 ### 10. Prova #2
 
