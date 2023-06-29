@@ -70,7 +70,7 @@ Aqui vocês encontram os links para os notebooks das aulas.
 
 ### 10. Prova #2
 
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/Exercícios-Extras-C126-L1-(1S2023).ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/zz4fap/python-programming/blob/master/provas/Prova-2-C126-L1-(1S2023).ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zz4fap/python-programming/master?filepath=provas%2FProva-2-C126-L1-(1S2023).ipynb)
 
